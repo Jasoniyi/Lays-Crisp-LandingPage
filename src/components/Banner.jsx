@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../assets/Logo.png";
 import banner from "../assets/Banner.png";
 import MobileMenu from "../components/MobileMenu";
+import Button from "../components/UI/button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleUser, faBars } from "@fortawesome/free-solid-svg-icons";
 
@@ -38,26 +39,22 @@ const Banner = () => {
               className="block w-80 rounded-md border border-gray-300 pl-2 pr-4 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm py-2"
             />
             <FontAwesomeIcon icon={faCircleUser} size="2x" />
-            <button className="bg-black px-4 rounded-md text-white">
-              Sign Up
-            </button>
+            <Button>Sign Up</Button>
           </div>
         </div>
       </div>
       {open ? <MobileMenu /> : null}
       <div className="flex flex-col-reverse md:flex-row justify-between md:h-[33em] px-10 bg-gradient-to-b from-[#14c5fa] to-[#80e1ffdb]">
-        <div className="text-wrapper flex flex-col md:py-28 md:w-[34em] md:pl-20 my-8">
+        <div className="title flex flex-col md:py-28 md:w-[34em] md:pl-20 my-8">
           <div className="text-5xl md:text-6xl font-bold banner-text">
             Feel the Best Taste with Lays Crisps
           </div>
-          <div className="banner-desc text-sm py-4 font-light">
+          <div className="desc text-sm py-4 font-light">
             Feel the best and awesome taste with Lays Crisps. There has been
             various kind of Crisps you can eat and feel the wonder taste of this
             awesome product.
           </div>
-          <button className="bg-black rounded-md text-white py-2 w-28">
-            All Crisps
-          </button>
+          <Button>All Crisps</Button>
         </div>
         <div className="banner-img md:mr-[-3em] mt-6">
           <img src={banner} alt="" className="w-96 md:w-32 lg:w-[33em]" />
