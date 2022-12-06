@@ -1,10 +1,13 @@
 import { useState } from "react";
 import "./App.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBellSlash } from "@fortawesome/free-regular-svg-icons";
+import Banner from "./components/Banner";
 
 function App() {
   return (
     <div className="">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Banner />
     </div>
   );
 }
