@@ -8,7 +8,7 @@ import { faStar, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 const About = () => {
   return (
     <div className="md:pl-28 pl-10">
-      <h4 className="title text-3xl font-bold mt-28 w-[13em] capitalize">
+      <h4 className="title text-2xl md:text-3xl font-bold mt-28 w-[13em] capitalize">
         We provide the tasty and best chips for you!
       </h4>
       <div className="flex justify-end">
