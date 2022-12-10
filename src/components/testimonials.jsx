@@ -8,7 +8,7 @@ import model from "../assets/model.png";
 
 const testimonials = () => {
   return (
-    <div className="my-20 bg-[#80E2FF]">
+    <div className="mt-20 bg-[#80E2FF]">
       <div className="flex flex-col-reverse items-center md:flex-row md:space-x-4 justify-around py-[5em]">
         <div className="flex flex-col space-y-10 pt-20">
           <h5 className="text-2xl md:text-4xl font-semibold">
