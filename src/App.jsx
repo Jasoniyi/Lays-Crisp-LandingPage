@@ -7,6 +7,7 @@ import About from "./components/About";
 import Category from "./components/Category";
 import Testimonials from "./components/testimonials";
 import FindStore from "./components/findStore";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Category />
       <Testimonials />
       <FindStore />
+      <Footer />
     </div>
   );
 }
