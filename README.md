@@ -24,6 +24,8 @@ Users should be able to:
 
 ![](./laysPage.png)
 
+![](./laysPage.png)
+
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Jasoniyi/Lays-Crisp-LandingPage)
