@@ -22,12 +22,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./dark-theme-todo-app.png)
+![](./laysPage.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [Add solution URL here](https://github.com/Jasoniyi/Lays-Crisp-LandingPage)
+- Live Site URL: [Add live site URL here](https://vercel.com/jasoniyi/lays-crisp-landing-page)
 
 ## My process
 

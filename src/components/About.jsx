@@ -37,7 +37,7 @@ const About = () => {
           </div>
           <div className="flex md:flex-row pt-4 gap-6 items-center">
             <Button>Buy Now</Button>
-            <span className="flex items-center text-sm">
+            <span className="flex items-center text-sm cursor-pointer">
               See More
               <FontAwesomeIcon icon={faAngleRight} className="pl-1" />
             </span>

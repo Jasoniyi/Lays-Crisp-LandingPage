@@ -22,7 +22,11 @@ const Category = () => {
           <div className="flex flex-col" key={pdcts.id}>
             <img src={pdcts.image} className="w-[16em]" />
             <span className="flex justify-end add-icon">
-              <FontAwesomeIcon icon={faPlusCircle} size="2x" />
+              <FontAwesomeIcon
+                icon={faPlusCircle}
+                size="2x"
+                className="cursor-pointer"
+              />
             </span>
             <div className="desc font-semibold pt-2">${pdcts.price}</div>
             <span className="text-[#5D696D] text-sm">{pdcts.desc}</span>
@@ -36,7 +40,7 @@ const Category = () => {
           </div>
         ))}
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center cursor-pointer">
         <Button>All Crisp</Button>
       </div>
     </div>

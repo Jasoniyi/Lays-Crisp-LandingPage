@@ -6,7 +6,7 @@ import social from "../assets/social.png";
 const Footer = () => {
   return (
     <div className="bg-[#FFF7E3]">
-      <div className="py-10 flex flex-col-reverse md:flex-row md:space-x-16">
+      <div className="py-10 flex flex-col-reverse md:flex-row md:space-x-[12em]">
         <div className="md:px-28 flex flex-col space-y-4 pt-16 space-x-5">
           <img src={logo} alt="" className="w-[3em] ml-3" />
           <span className="">
