@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import logo from "../assets/Logo.png";
-import banner from "../assets/Banner.png";
+import banner from "../images/banner.png";
 import MobileMenu from "../components/MobileMenu";
 import Button from "../components/UI/button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
